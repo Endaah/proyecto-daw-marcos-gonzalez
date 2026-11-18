@@ -2,35 +2,28 @@
 
 > **Plantilla.** En **H1 (26-nov-2026)** entregas una **versión breve** (2-3 páginas: apartados **1, 2 y 5**), junto al `01-analisis.md`. Los apartados 3, 4, 6, 7 y 8 se completan en **H2 (21-ene-2027)** hasta las **4-6 páginas** del documento final. Aquí estudias qué soluciones, **modelos de negocio** y **herramientas** existen ya para el problema que has elegido, y justificas tus decisiones con ello. Cada apartado indica el criterio de evaluación (CE) que alimenta. Borra los bloques «Guía» al rellenar.
 
-> **Guía.** Calendario de H1: **hasta el 18-nov** preguntas de búsqueda y tabla de soluciones (apartados 1 y 2) · **hasta el 25-nov** hueco y diferenciación (apartado 5). Los apartados 3, 4, 6, 7 y 8 son de H2.
->
-> **Reglas.**
->
-> - Solo cuenta lo que tiene **enlace y fecha de acceso**.
-> - Si usas IA para buscar, **abre cada fuente** y comprueba que existe y dice lo que te cuenta la IA. Puede inventar productos, precios o referencias. Decláralo en [`declaracion-uso-ia.md`](declaracion-uso-ia.md).
-> - Usa **solo información pública** de las soluciones que estudias. **Nada** de la empresa de prácticas ni de clientes reales.
-> - Compara herramientas con **los mismos criterios**, no por opinión. Salvo razón argumentada, prefiere lo que has visto en el ciclo (Java 21, Spring Boot, SQL).
-> - Si algo no lo has podido comprobar, dilo en el apartado 8.
-
 ## 1. Problema y preguntas de búsqueda (CE 1c)
 
-*El problema en **una frase**. Después, **3-5 preguntas** que vas a contestar con este documento (por ejemplo: «¿Qué soluciones existen?», «¿Cómo ganan dinero?», «¿Qué tecnologías usan?»). Indica **dónde y cuándo** buscaste (buscadores, tiendas de aplicaciones, repositorios, informes del sector).*
-
-**Problema:** [RELLENAR: una frase]
+**Problema:** No existe un punto único donde centralizar y seguir de forma activa las fuentes de información sobre el desarrollo de un videojuego o sobre qué está desarrollando un desarrollador independiente, por lo que resulta difícil enterarse a tiempo real de su evolución o del inicio de un nuevo proyecto.
 
 | # | Pregunta | Dónde busqué | Fecha |
 |---|---|---|---|
-| P1 | [RELLENAR] | | |
+| P1 | ¿Qué soluciones existen actualmente para centralizar fuentes sobre videojuegos en desarrollo? | Buscadores, repositorios GitHub y plataformas de feeds (Steam, itch.io, IndieDB) | 17-nov-2026 |
+| P2 | ¿Cómo monetizan las plataformas y servicios de seguimiento de videojuegos? | Documentación oficial (Steamworks), información sectorial (IndieDB) | 17-nov-2026 |
+| P3 | ¿Qué modelos de fuente y notificación usan las soluciones existentes para informar sobre desarrollo de videojuegos? | itch.io updates, Steamworks, IndieDB | 17-nov-2026 |
+| P4 | ¿Existen proyectos de código abierto que ya intenten resolver este problema? | GitHub (gamedev-exodus), itch.io | 17-nov-2026 |
+| P5 | ¿Existen alternativas no digitales (hojas de cálculo, listas manuales) para este seguimiento? | Reddit / r/gamedev | 17-nov-2026 |
 
 ## 2. Soluciones existentes (CE 1a, 1c, 2a)
 
-*Tabla de **5-8** soluciones (productos, servicios o proyectos de código abierto) que resuelven total o parcialmente el problema. Incluye alguna **alternativa gratuita o de código abierto** y alguna **no digital** (hoja de cálculo, papel) si existe.*
-
 | Solución | Para quién | Qué hace | Modelo de precio | Enlace y fecha de acceso | Estado (`leído` / `sin leer`) |
-|---|---|---|---|---|
-| [RELLENAR] | | | | |
-
-*Figura: comparativa de las soluciones (opcional, un cuadrante o un esquema).*
+|---|---|---|---|---|---|
+| Steam News | Videojuegos lanzados en Steam | Anuncios de devs, RSS por juego | Gratuito (una vez publicado el juego en Steam) | https://store.steampowered.com/news (15/11/2026) | Leído |
+| IndieDB | Estudios independientes | Recopilación de recursos y proyectos de y para desarrolladores (similar a un foro) | Gratuito | https://www.indiedb.com (15/11/2026) | Leído |
+| itch.io | Desarrolladores independientes | Publicación de todo relacionado con videojuegos y desarrollo independiente (assets, juegos, noticias, etc.) | Gratuito | https://itch.io (15/11/2026) | Leído |
+| X | Usuarios | Multiusos. Algunos desarrolladores lo usan para publicar noticias sobre sus proyectos | Gratuito | https://x.com (15/11/2026) | Leído |
+| Reddit | Desarrolladores y usuarios | Foro multiusos que algunos usuarios y desarrolladores utilizan para compartir publicaciones sobre sus videojuegos | Gratuito | https://www.reddit.com (15/11/2026) | Leído |
+| Discord | Usuarios | Comunicación directa. Algunos desarrolladores publican actualizaciones sobre sus proyectos en comunidades propias. | Gratuito | https://discord.com (15/11/2026) | Leído |
 
 ## 3. Modelos de negocio (CE 1d, 1e)
 
@@ -52,7 +45,10 @@
 
 ## 5. Hueco y diferenciación (CE 1e)
 
-*Qué **no cubren** las soluciones del apartado 2 y qué aporta tu proyecto. Es tu **propuesta de valor**, en 3-5 líneas, sin exagerar: si hay soluciones mejores que la tuya para algunos usuarios, dilo.*
+Las soluciones estudiadas abordan el problema con parcialidad: Steam centraliza anuncios de sus juegos y ofrece RSS; IndieDB e itch.io ofrecen perfiles y devlogs a desarrolladores indie; Reddit, Twitter/X y Discord suministran contenido, aunque de forma dispersa. Ninguna de ellas ofrece, un punto único donde un usuario pueda seguir y gestionar de forma personalizada un conjunto de fuentes sobre los juegos o desarrolladores que le interesan, ni siquiera para desarrolladores que publican en canales no centralizados (X/Twitter, newsletters, blogs propios).
+
+GameFeeds aporta esa capa: centralizar fuentes heterogéneas sobre desarrollo de videojuegos, con seguimiento por intereses del usuario y gestión de fuentes por juego y desarrollador. Para usuarios con intereses muy específicos, otras soluciones pueden ser ya suficientemente buenas.
+
 
 ## 6. Decisiones derivadas (CE 1e, 1f, 2b)
 

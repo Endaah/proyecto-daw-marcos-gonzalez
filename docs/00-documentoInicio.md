@@ -10,7 +10,7 @@
 |---|---|
 | **Nombre y apellidos** | Marcos González García |
 | **Usuario de GitHub** | Endaah |
-| **Repositorio del proyecto** | «pendiente» aún no está creado |
+| **Repositorio del proyecto** | [proyecto-daw-marcos-gonzalez](https://github.com/Endaah/proyecto-daw-marcos-gonzalez.git) |
 | **Ciclo y curso** | DAW, 2.º · curso 2026-27 |
 | **Fecha** | 2026-11-06 |
 
