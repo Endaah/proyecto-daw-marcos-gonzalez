@@ -1,9 +1,5 @@
 # 00 · Documento de inicio del proyecto
 
-> **Plantilla.** Se rellena **hoy, en la sesión de Inicio (6-nov-2026)** y se afina hasta el **12-nov**, donde el tutor aprueba la propuesta. Es breve: una página. Si algo no lo sabes todavía, escribe «pendiente» y por qué. Borra las notas en cursiva al rellenar.
->
-> **No escribas datos personales sensibles** (teléfono, dirección, DNI) ni tu correo personal.
-
 ## 1. Datos del alumno/a
 
 | | |
@@ -64,8 +60,7 @@ Este proyecto no es parte ni tiene relación con ninguna empresa específica, si
 
 ## 10. Riesgos y dudas iniciales
 
-*Lo que más te preocupa o no tienes claro (tiempo, tecnología, alcance...).*
-Para la versión mínima no veo problema. Me preocupa después, ya que me gustaría tener un sistema que notificara a los usuarios registrados cuando haya actividad de los desarrolladores de los juegos que siguen. Tengo alguna idea, pero aún no sé cómo la llevaría a cabo.
+Para la versión mínima no creo que tenga problema. Me preocupa después, ya que me gustaría tener un sistema que notificara a los usuarios registrados cuando haya actividad de los desarrolladores de los juegos que siguen. Tengo alguna idea, pero aún no sé cómo la llevaría a cabo.
 
 ## 11. Qué espero aprender
 
