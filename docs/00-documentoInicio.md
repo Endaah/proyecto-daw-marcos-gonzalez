@@ -1,72 +1,70 @@
 # 00 · Documento de inicio del proyecto
 
-> **Plantilla.** Se rellena durante el **ciclo 1 (16-19 nov)** y el tutor la revisa el jueves 19. Es breve: una página. Si algo no lo sabes todavía, escribe «pendiente» y por qué. Borra las notas en cursiva al rellenar.
->
-> **No escribas datos personales sensibles** (teléfono, dirección, DNI) ni tu correo personal. Tu repositorio es público.
-
 ## 1. Datos del alumno/a
 
 | | |
 |---|---|
-| **Nombre** (real o alias, como prefieras) | |
-| **Usuario de GitHub** | |
-| **Repositorio del proyecto** | *enlace* |
+| **Nombre y apellidos** | Marcos González García |
+| **Usuario de GitHub** | Endaah |
+| **Repositorio del proyecto** | [proyecto-daw-marcos-gonzalez](https://github.com/Endaah/proyecto-daw-marcos-gonzalez.git) |
 | **Ciclo y curso** | DAW, 2.º · curso 2026-27 |
-| **Fecha** | AAAA-MM-DD |
+| **Fecha** | 2026-11-06 |
 
 ## 2. Nombre del proyecto
 
-*Nombre provisional (puede cambiar). Una frase de qué es.*
+GameFeeds
 
 ## 3. Qué quiero hacer
 
-*Descríbelo con tus palabras, en 5 a 10 líneas: qué es, qué hace y cómo se usaría.*
+Quiero hacer un sitio web para recopilar fuentes de información sobre videojuegos en desarrollo y de desarrolladores, como cuentas de twitter, feed de Steam o otras fuentes que puedan informar sobre videojuegos específicos. Los usuarios podrían iniciar sesión para guardar juegos y desarrolladores en los que estén interesados y añadir o modificar fuentes de información para cada videojuego o desarrollador.
 
 ## 4. Qué problema o necesidad resuelve
 
-*¿Qué necesidad real del sector o de un colectivo cubre? ¿Cómo lo sabes (la has visto, hablaste con alguien, hay datos)? Anótalo, se desarrolla en `01-analisis.md`.*
+La idea es centralizar las fuentes de información para poder acceder fácilmente a ellas. Es un problema recurrente que tengo personalmente, donde quiero enterarme de cómo evoluciona el desarrollo de un videojuego o quiero ver qué proyecto empieza algún desarrollador, pero me cuesta encontrar dónde lo publican.
 
 ## 5. Para quién
 
-*Quién lo usaría (personas usuarias o clientes) y en qué contexto (empresa, asociación, uso personal...).*
+El objetivo son usuarios que estén interesados en videojuegos, sobre todo de estudios independientes. Uso personal.
 
 ## 6. Funcionalidades principales
 
-*Lista de 3 a 6 cosas que debe hacer. Marca cuáles son imprescindibles para una **primera versión mínima** (la que quieres tener funcionando antes del 31-mar).*
-
 | # | Funcionalidad | ¿Imprescindible? (sí / no) |
 |---|---|---|
-| 1 | | |
+| 1 | Listar videojuegos | sí |
+| 2 | Guardar y visualizar fuentes por videojuego | sí |
+| 3 | Inicio de sesión (cuentas de usuario) | si |
+| 4 | Permitir a usuarios guardar juegos como interesados | no |
+| 5 | Notificar a los usuarios de actividad en sus juegos | no |
+| 6 | Registro de cambios | sí |
 
 ## 7. Tecnologías previstas
 
-*Lenguajes, frameworks, base de datos, despliegue... Y cuáles ya conoces y cuáles tendrás que aprender.*
-
 | Tecnología | Para qué | Nivel actual (nada / algo / bien) |
 |---|---|---|
-| | | |
+| MySQL | Guardar fuentes sobre juegos y usuarios | bien |
+| Java | Backend de la aplicación | bien |
+| SpringBoot | API, Backend | algo |
+| PHP | Frontend | nada |
+| Docker | Despliegue | algo |
 
 ## 8. Dónde se integra con los módulos de 2.º
 
-*Marca los módulos de 2.º cuyos contenidos usarás de forma real en el proyecto (debe haber **al menos tres**).*
-
-- [ ] Desarrollo web en entorno cliente (0612)
-- [ ] Desarrollo web en entorno servidor (0613)
-- [ ] Despliegue de aplicaciones web (0614)
-- [ ] Diseño de interfaces web (0615)
+- [x] Desarrollo web en entorno cliente (0612)
+- [x] Desarrollo web en entorno servidor (0613)
+- [x] Despliegue de aplicaciones web (0614)
+- [x] Diseño de interfaces web (0615)
 
 ## 9. Datos y empresas
 
-- ¿El proyecto parte de una **empresa** (por ejemplo, de tus prácticas)? **Sí / No**. Si es sí: ¿tienes su **autorización escrita** para usar información suya? **Sí / No / En trámite**. Se plantea como un encargo simulado.
-- ¿Usará **datos personales reales**? **Debe ser que no**: usa datos de ejemplo.
+Este proyecto no es parte ni tiene relación con ninguna empresa específica, simplemente recopilará información pública compartida en fuentes públicas. No usará datos personales reales
 
 ## 10. Riesgos y dudas iniciales
 
-*Lo que más te preocupa o no tienes claro (tiempo, tecnología, alcance...).*
+Para la versión mínima no creo que tenga problema. Me preocupa después, ya que me gustaría tener un sistema que notificara a los usuarios registrados cuando haya actividad de los desarrolladores de los juegos que siguen. Tengo alguna idea, pero aún no sé cómo la llevaría a cabo.
 
 ## 11. Qué espero aprender
 
-*Una o dos frases.*
+Espero aprender a desarrollar y desplegar una aplicación web completa.
 
 ---
 
