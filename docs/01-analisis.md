@@ -70,6 +70,13 @@ GameFeeds adopta el tipo de proyecto de **aplicación web de seguimiento y agreg
 
 ## 4. Requisitos y restricciones (CE 1f)
 
+### Objetivos
+
+- **OBJ-01** · Juntar al menos 10 (valor provisional) fuentes de información generales en un sitio centralizado para usuarios interesados en videojuegos, medido con la cantidad de fuentes recopiladas en el sitio web.
+- **OBJ-02** · Permitir que cada usuario guarde hasta 20 (valor provisional, 20 en total entre juegos y desarrolladores) juegos y desarrolladores en los que estén interesados, medido con una prueba que compruebe que se rechaza el número 21.
+- **OBJ-03** · Mostrar al menos 1 aviso en la página cuando cambia una fuente, medido con una prueba que comprueba que ha aparecido un aviso al modificar una fuente.
+- **OBJ-04** · Guardar al menos 1 fuente de información ligada a un videojuego específico, medido por una prueba que añada una fuente de información al perfil de un videojuego y compruebe que se ha añadido.
+
 ### Requisitos
 
 | ID | Requisito | Tipo (funcional / no funcional / restricción) | Cómo se verifica |
@@ -77,6 +84,7 @@ GameFeeds adopta el tipo de proyecto de **aplicación web de seguimiento y agreg
 | RF-01 | El sistema debe permitir listar los videojuegos con sus fuentes de información asociadas | funcional | Prueba: listado de videojuegos y sus fuentes en la respuesta |
 | RF-02 | El sistema debe permitir guardar y visualizar las fuentes de información de un videojuego | funcional | Prueba: alta de fuente y visualización |
 | RF-03 | El sistema debe permitir registrar cambios sobre las fuentes de un videojuego | funcional | Prueba: registro de cambios |
+| RF-04 | El sistema debe permitir que el usuario registre videojuegos y desarrolladores en los que estén interesados | funcional | Prueba: registrar un juego y comprobar que aparece en la lista; registrar un desarrollador y comprobar que aparece en la lista |
 | RNF-01 | El sistema debe responder el listado y la consulta de fuentes en menos de 2 s | no funcional | Prueba de rendimiento |
 | RNF-02 | Las contraseñas de los usuarios deben almacenarse con hash y gestionarse de forma segura | no funcional | Auditoría / prueba de seguridad |
 | REST-01 | El proyecto se desarrollará con Java 21, Spring Boot, MySQL y Docker, en el plazo del H1 | restricción | Verificación durante el desarrollo |
@@ -85,19 +93,34 @@ GameFeeds adopta el tipo de proyecto de **aplicación web de seguimiento y agreg
 
 | Objetivo | Requisito | Caso de uso | Pantalla o endpoint | Prueba o indicador |
 |---|---|---|---|---|
-| OBJ-01 Gestionar fuentes de videojuegos | RF-01 | | | pendiente |
+| OBJ-01 | RF-01 | pendiente | pendiente | pendiente |
+| OBJ-01 | RNF-01 | pendiente | pendiente | pendiente |
+| OBJ-02 | RF-04 | pendiente | pendiente | pendiente |
+| OBJ-02 | RNF-02 | pendiente | pendiente | pendiente |
+| OBJ-03 | RF-03 | pendiente | pendiente | pendiente |
+| OBJ-04 | RF-01 | pendiente | pendiente | pendiente |
+| OBJ-04 | RF-02 | pendiente | pendiente | pendiente |
 
 ## 5. Obligaciones fiscales, laborales y de prevención (CE 1g)
 
+### A quién afecta el proyecto
+
+Servicio **solo en línea**, explotado por un **autónomo sin personal contratado** y **sin ánimo de lucro**. Guarda datos de usuarios (correo, contraseña y nombre de usuario).
+
 ### Obligaciones aplicables
 
-- **Fiscal**: No procede ninguna obligación fiscal, al tratarse el proyecto de una actividad personal sin ánimo de lucro desarrollada en el marco del TFG.
-- **Laboral**: No procede obligación laboral, al no existir relación laboral con los usuarios ni con terceros.
-- **Prevención**: Aplica la normativa de prevención de riesgos laborales (Ley 31/1995) en el ámbito en que se realice la actividad.
+| Obligación | Por qué le toca | Norma (con enlace) | Estado |
+|---|---|---|---|
+| **Fiscal**: alta en el Censo de Empresarios, Profesionales y Retenedores | Es un servicio en línea, pero sin ingresos. La AEAT incluye en ese censo a quien desarrolle actividades empresariales o profesionales: si no hay actividad económica, no procede el alta | [RD 1065/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-15984) y [Ley 58/2003](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186); página [Censo de empresarios, profesionales y retenedores](https://sede.agenciatributaria.gob.es/Sede/censos-nif-domicilio-fiscal/quien-debe-estar-censado/censo-empresarios-profesionales-retenedores.html) | leído, 2026-11-24 |
+| **Laboral**: alta y cotización en el RETA | Autónomo sin personal. Solo hay obligación si se realiza una actividad económica a título lucrativo; sin ingresos, no procede el alta | [Ley 20/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-13409) y [página Trabajo Autónomo de la Seguridad Social](https://portal.seg-social.gob.es/wps/portal/importass/importass/Colectivos/Trabajo+Autonomo) | ley: sin leer; página: leído, 2026-11-24 |
+| **Prevención**: trabajo con pantallas de visualización | Se desarrolla delante de una pantalla, pero la norma impone obligaciones al empresario respecto de sus trabajadores y no hay personal contratado: no aplica | [RD 488/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671) | leído en parte, 2026-11-24 |
+| **Protección de datos**: datos de los usuarios | Guarda correo, contraseña y nombre de usuario, que son datos personales | [RGPD](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807) y [LOPDGDD](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) | sin leer |
 
-### Condiciones
+### Lo que no pude comprobar
 
-- Al no usarse datos personales reales en el proyecto, no se considera aplicable el tratamiento de datos personales en esta fase.
+- Si, sin ingresos, existe **actividad económica** a efectos de alta censal y de RETA. Queda pendiente de confirmar con la Agencia Tributaria o con el tutor.
+- Si un **autónomo sin trabajadores** queda dentro del ámbito del RD 488/1997. Se ha decidido «no aplica», pero es una interpretación, no un dato comprobado.
+- Si el **alojamiento web** que se use implica un encargado del tratamiento de datos. No se ha mirado.
 
 ## 6. Ayudas y subvenciones (CE 1h)
 
