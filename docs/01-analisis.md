@@ -124,25 +124,43 @@ Servicio **solo en línea**, explotado por un **autónomo sin personal contratad
 
 ## 6. Ayudas y subvenciones (CE 1h)
 
-### Ayudas identificadas
+### Ayuda identificada
 
-- **Creative Europe – MEDIA** (Unión Europea): ayuda del programa marco de la UE para los medios audiovisuales, del que forman parte los agentes e industrias del sector del videojuego. Fuente: [Creative Europe – MEDIA](https://creative-europe.ec.europa.eu/). Requisitos: presentación de propuestas de proyectos culturales e industriales. Plazo: convocatorias anuales (por concretar).
+**Programa Cheques de Innovación y Desarrollo Empresarial — línea «Digitalización de la empresa» (convocatoria 2026)**. Agencia SEKUENS / IDEPA, Principado de Asturias.
 
-### Estado
+| Dato | Contenido |
+|---|---|
+| **Quién puede pedirla** | Pymes y autónomos con **centro de trabajo en Asturias** donde desarrollen su actividad económica. El personal computado debe figurar en una **cuenta de cotización de la Seguridad Social registrada en Asturias**; el autónomo puede computarse a sí mismo. |
+| **Qué cubre** | Digitalización de la empresa: proyectos viables técnica, económica y financieramente, iniciados **después** de la solicitud. Presupuesto máximo por proyecto: **15.000 €**. No cubre proyectos iniciados antes de pedir la ayuda. Los pagos deben respetar la Ley 3/2004 de morosidad. |
+| **Cuánto** | Importe fijo. Para **empresario individual**, línea Digitalización: **1.250 €** si el proyecto está entre 2.500 € y menos de 5.000 €; **2.500 €** si está entre 5.000 € y 15.000 €. |
+| **Plazo** | Hasta las **14:00 h del 30 de abril de 2026** (hora peninsular). |
+| **Cómo se solicita** | Sede electrónica de SEKUENS / IDEPA, con el formulario, los datos generales, la **Memoria del proyecto** (no subsanable) y la declaración DACI. Máximo **una solicitud por línea**. |
+| **Estado** | **Cerrada** (convocatoria 2026). |
+| **Enlace** | [Ficha oficial IDEPA](https://www.idepa.es/detalle-ayuda/-/asset_publisher/EorU9gEBOv3g/content/ayuda-sekuens-ayudas-a-empresas-del-principado-de-asturias-en-el-marco-del-programa-cheques-de-innovacion-y-desarrollo-empresarial) |
 
-- Pendiente de confirmar con el tutor la ayuda concreta que se priorizará para el proyecto en esta fase.
+### Lo que no pude comprobar
+
+- Si GameFeeds encaja en alguno de los **sectores incluidos** en el Anexo B (industrial, servicios de apoyo industrial, construcción, comercio al por mayor, turismo).
+- Hoy **no se cumple** el requisito de actividad económica ni el de alta y cotización en Asturias, porque el proyecto no genera ingresos. La ayuda se documenta como referencia, no como algo solicitable en este momento.
+- Los datos se han tomado de la ficha oficial del IDEPA (actualizada el 22/04/2026). **No se ha podido abrir el PDF** de la convocatoria con las herramientas disponibles.
 
 ## 7. Guion de trabajo (CE 1i)
 
-### Fases y hitos
+### Fases, tareas e hitos
 
-- **Fase 1 – Documentación inicial (RA1)**: elaboración de secciones 1 a 8 del presente documento y del `00-documentoInicio.md`. Hasta el **26-11-2026** (H1).
-- **Fase 2 – Estado del arte (SOTA)**: apartados 1, 2 y 5 del [`01b-sota.md`](01b-sota.md). Hasta el **25-11-2026**.
-- **Fase 3 – Desarrollo mínimo**: implementación de la versión mínima con las funcionalidades definidas como imprescindibles.
+| Fase | Fechas | Tareas principales | Responsable | Hito |
+|---|---|---|---|---|
+| 1 Análisis | 6-nov a 26-nov-2026 | Rellenar `docs/00-documentoInicio.md` · Rellenar `docs/01-analisis.md` · Empezar `docs/01b-sota.md` | Alumno | **H1** 26-nov-2026 |
+| 2 Diseño | 26-nov a 10-dic-2026 | Diseñar la base de datos · Empezar a diseñar la infraestructura del backend · Diseñar la pantalla de muestra de fuentes | Alumno | — |
+| 3 Planificación | 10-dic-2026 a 21-ene-2027 | Cerrar los requisitos · Completar el SOTA · Repartir el trabajo en el calendario | Alumno | **H2** 21-ene-2027 |
+| 4 Implementación | 21-ene a 31-mar-2027 | Crear la base de datos · Crear una interfaz web básica inicial · Implementar una primera versión de la API | Alumno | — |
+| 5 Pruebas | 1-abr a 23-abr-2027 | Crear pruebas para el CRUD de la base de datos · Comprobar que se listan los videojuegos y sus fuentes en la página · Probar que se pueden añadir y gestionar usuarios | Alumno | — |
+| 6 Despliegue | 26-abr a 7-may-2027 | Determinar qué servicio de hosting usaré para alojar la app · Crear los archivos necesarios para Docker · Subir los archivos y desplegar la aplicación | Alumno | **H3** 7-may-2027 |
+| 7 Seguimiento, control y cierre | 11-feb a 18-jun-2027 | Revisar el avance · Corregir el rumbo · Cerrar la documentación | Alumno | — |
 
 ### Responsables
 
-- **Marcos González García** (alumno responsable del proyecto).
+- **Alumno** (responsable del proyecto): ejecuta las tareas de todas las fases.
 
 ### Seguimiento
 
@@ -150,18 +168,13 @@ Servicio **solo en línea**, explotado por un **autónomo sin personal contratad
 
 ## 8. Glosario
 
-### Términos del dominio
+### Términos del dominio y del proyecto
 
 | Término | Definición | Sinónimos que NO uso |
 |---|---|---|
 | Devlog | Publicación periódica o puntual de actualizaciones sobre el desarrollo de un videojuego | Bitácora, changelog, post de desarrollo |
 | RSS | Formato de sindicación de contenido que permite suscribirse a fuentes de información | Feed, agregador |
 | Videojuego independiente | Videojuego desarrollado por un estudio pequeño o individual, sin estructura corporativa de gran tamaño | Indie, estudio emergente |
-
-### Términos del proyecto
-
-| Término | Definición | Sinónimos que NO uso |
-|---|---|---|
 | Fuente | Origen de información (plataforma, red social, RSS, newsletter) sobre un videojuego o desarrollador | Medio, canal |
 | Seguimiento | Acción de mantenerse informado sobre un videojuego o desarrollador mediante el uso de fuentes | Tracking, watch |
 

@@ -8,4 +8,5 @@ Una entrada **cada semana**. El tutor puede comentar aspectos técnicos en el Pu
 
 | Fecha | Horas gestión/doc. | Horas producto | Decisiones técnicas | Avances | Bloqueos | Siguiente paso |
 |---|---|---|---|---|---|---|
-| 2026-11-06 | | | | | | |
+| 2026-11-06 | 5 | 0 | Decidir qué proyecto hacer y por dónde llevarlo | Investigación inicial del estado del arte | — | — |
+| 2026-11-25 | 8 | 0 | Ninguna | Requisitos, obligaciones y posible ayuda documentados | Buscar una subvención que encajara con el proyecto | Empezar el diseño de la base de datos |
